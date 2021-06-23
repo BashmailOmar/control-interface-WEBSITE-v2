@@ -59,6 +59,6 @@ mobile web view
 5- conn.php ( يتم الاتصال بقاعدة البيانات وتحديث قيم في قاعدة البيانات. )
 
 
-6- valuesView.php و directionView.php ( يتم جلب القيم و والاتجاه من قاعدة البيانات. )
+6- valuesView.php و directionView.php ( يتم جلب القيم والاتجاه من قاعدة البيانات. )
 
 
