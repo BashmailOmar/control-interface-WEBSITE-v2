@@ -36,6 +36,11 @@ mobile web view
 وايضا من خلال الرابط التالي ( https://bashmailomar.github.io/control-interface-WEBSITE-v2/ )
 
 
+مقطع يوضح عملية ارسال الاتجاه لقاعدة البيانات
+
+![Desktop 2021 06 23 - 22 28 32 02](https://user-images.githubusercontent.com/78684031/123157638-78538880-d473-11eb-9890-8b0bf371bdba.gif)
+
+
 -- شرح محتويات الملفات --
 
 
