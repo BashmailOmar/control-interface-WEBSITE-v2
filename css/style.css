@@ -3,6 +3,7 @@ body {
     background-size: cover;
     padding: 0px;
     margin: 0px auto;
+    min-width: 600px;
 }
 
 .ctrlP {
