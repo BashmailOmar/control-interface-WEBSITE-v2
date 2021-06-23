@@ -1,4 +1,6 @@
 <?php
+
+/* بدء الاتصال */
 $con = mysqli_connect('127.0.0.1', 'root', '');
 
 if (!$con) {
@@ -10,13 +12,13 @@ if (!mysqli_select_db($con, 'iot')) {
 }
 /* end connect */
 
-/* start read from database */
+/* القراءة من قاعدة البيانات */
 $sqlView = "SELECT direction FROM directionstable";
 $result = mysqli_query($con, $sqlView);
 if (!$result) {
     die("Error in query");
 }
-/*  end read  */
+/*  عرض البيانات التي تم جلبها من قاعدة البيانات */
 $row = mysqli_fetch_assoc($result);
 echo '<li>' . $row['direction'];
 if (!mysqli_query($con, $sqlView)) {
