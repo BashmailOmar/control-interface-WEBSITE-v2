@@ -20,6 +20,5 @@ while ($row = mysqli_fetch_assoc($result)) {
     echo '<li>' . $row['engineName'] . ' = ' . $row['engineValue'] . '</li>';
 }
 
-/*  */
 if (!mysqli_query($con, $sqlView)) {
 }
